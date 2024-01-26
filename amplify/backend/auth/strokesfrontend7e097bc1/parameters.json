@@ -1,0 +1,21 @@
+{
+  "authSelections": "identityPoolAndUserPool",
+  "resourceName": "strokesfrontend7e097bc1",
+  "serviceType": "imported",
+  "region": "eu-central-1",
+  "requiredAttributes": [
+    "email"
+  ],
+  "passwordPolicyMinLength": 10,
+  "passwordPolicyCharacters": [
+    "Requires Lowercase",
+    "Requires Uppercase",
+    "Requires Numbers",
+    "Requires Symbols"
+  ],
+  "mfaConfiguration": "OFF",
+  "autoVerifiedAttributes": [
+    "email"
+  ],
+  "mfaTypes": []
+}

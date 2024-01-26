@@ -1,0 +1,44 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-strokesfrontend-dev-145329-authRole",
+      "UnauthRoleArn": "arn:aws:iam::993842362912:role/amplify-strokesfrontend-dev-145329-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::993842362912:role/amplify-strokesfrontend-dev-145329-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-strokesfrontend-dev-145329-deployment",
+      "UnauthRoleName": "amplify-strokesfrontend-dev-145329-unauthRole",
+      "StackName": "amplify-strokesfrontend-dev-145329",
+      "StackId": "arn:aws:cloudformation:eu-central-2:993842362912:stack/amplify-strokesfrontend-dev-145329/47c977f0-bc52-11ee-a06b-0e75a689089a"
+    }
+  },
+  "stroke": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-strokesfrontend-stroke-151553-authRole",
+      "UnauthRoleArn": "arn:aws:iam::993842362912:role/amplify-strokesfrontend-stroke-151553-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::993842362912:role/amplify-strokesfrontend-stroke-151553-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-strokesfrontend-stroke-151553-deployment",
+      "UnauthRoleName": "amplify-strokesfrontend-stroke-151553-unauthRole",
+      "StackName": "amplify-strokesfrontend-stroke-151553",
+      "StackId": "arn:aws:cloudformation:eu-central-1:993842362912:stack/amplify-strokesfrontend-stroke-151553/69915bc0-bc55-11ee-9f57-02189223320f",
+      "AmplifyAppId": "d2j75igo356rb5"
+    },
+    "categories": {
+      "auth": {
+        "strokesfrontend7e097bc1": {
+          "userPoolId": "eu-central-1_5Ou6B0qMT",
+          "userPoolName": "strokes",
+          "webClientId": "2bv9s1g00bt8puah6db10p12n",
+          "nativeClientId": "2bv9s1g00bt8puah6db10p12n",
+          "identityPoolId": "eu-central-1:0d0365c5-88c5-4d50-afe4-bb5e87fa72d3",
+          "identityPoolName": "strokes",
+          "allowUnauthenticatedIdentities": false,
+          "authRoleArn": "arn:aws:iam::993842362912:role/strokes-authenticated",
+          "authRoleName": "strokes-authenticated",
+          "unauthRoleArn": "arn:aws:iam::993842362912:role/strokes-cognito-unauthenticated",
+          "unauthRoleName": "strokes-cognito-unauthenticated"
+        }
+      }
+    }
+  }
+}
