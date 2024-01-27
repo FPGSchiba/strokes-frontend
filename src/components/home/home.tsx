@@ -3,10 +3,9 @@ import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { doSignOut } from "../../store/actions/user";
 import { useNavigate } from "react-router-dom";
-import { AppState } from "../../store/format";
-import { getSession, getUser, test } from "../../services/amplify";
-import { AuthSession } from '@aws-amplify/core/dist/esm/singleton/Auth/types';
+import { getUser, test } from "../../services/amplify";
 import { AuthUser } from "aws-amplify/auth";
+import { createWebSocket } from "../../services/socket";
 
 export function Home() {
   const dispatch = useDispatch();
@@ -19,7 +18,12 @@ export function Home() {
       console.log(currentUser);
     };
 
+    const connectSocket = async () => {
+      const socket = createWebSocket();
+    }
+
     fetchData();
+    connectSocket();
   }, []);
   const onSignOut = () => {
     dispatch(

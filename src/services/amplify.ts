@@ -4,6 +4,7 @@ import { post, get, del } from 'aws-amplify/api';
 import Cookies from 'js-cookie';
 import { AuthSession } from '@aws-amplify/core/dist/esm/singleton/Auth/types';
 import amplifyconfig from '../amplifyconfiguration.json';
+import config from '../shared/config.json';
 
 Amplify.configure(amplifyconfig);
 
@@ -17,7 +18,7 @@ Amplify.configure({
         REST: {
             ...existingConfig.API?.REST,
             StrokesAPI: {
-                endpoint: 'https://tbdt8noyvk.execute-api.eu-central-1.amazonaws.com/dev'
+                endpoint: config.restUrl
             }
         }
     }
@@ -49,11 +50,11 @@ export async function handleSignOut() {
     localStorage.clear();
 }
 
-export async function getHeaders() {
-    return { Authirozation: `Bearer ${(await fetchAuthSession()).tokens?.accessToken}` };
+export async function getAuthToken() {
+    return `Bearer ${(await fetchAuthSession()).tokens?.accessToken}`;
 }
 
 export async function test() {
-    const response = await get({ apiName: 'StrokesAPI', path: '/stroke', options: { headers: { Authorization: 'test' } } });
-    console.log(response);
+    const response = await get({ apiName: 'StrokesAPI', path: '/stroke', options: { headers: { Authorization: await getAuthToken() } } });
+    console.log(await (await response.response).body.json());
 }

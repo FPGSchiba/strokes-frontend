@@ -25,12 +25,12 @@
     },
     "categories": {
       "auth": {
-        "strokesfrontend7e097bc1": {
-          "userPoolId": "eu-central-1_5Ou6B0qMT",
+        "strokesfrontende277fccf": {
+          "userPoolId": "eu-central-1_SZeTm21hp",
           "userPoolName": "strokes",
-          "webClientId": "2bv9s1g00bt8puah6db10p12n",
-          "nativeClientId": "2bv9s1g00bt8puah6db10p12n",
-          "identityPoolId": "eu-central-1:0d0365c5-88c5-4d50-afe4-bb5e87fa72d3",
+          "webClientId": "4qj4hfvtc1f2lkei10igsh6pd",
+          "nativeClientId": "4qj4hfvtc1f2lkei10igsh6pd",
+          "identityPoolId": "eu-central-1:074474d9-3c4c-4e09-8732-1408bff6ff25",
           "identityPoolName": "strokes",
           "allowUnauthenticatedIdentities": false,
           "authRoleArn": "arn:aws:iam::993842362912:role/strokes-authenticated",

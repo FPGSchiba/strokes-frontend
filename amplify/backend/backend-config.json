@@ -1,6 +1,6 @@
 {
   "auth": {
-    "strokesfrontend7e097bc1": {
+    "strokesfrontende277fccf": {
       "customAuth": false,
       "dependsOn": [],
       "providerPlugin": "awscloudformation",
@@ -9,91 +9,91 @@
     }
   },
   "parameters": {
-    "AMPLIFY_auth_strokesfrontend7e097bc1_allowUnauthenticatedIdentities": {
+    "AMPLIFY_auth_strokesfrontende277fccf_allowUnauthenticatedIdentities": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "strokesfrontend7e097bc1"
+          "resourceName": "strokesfrontende277fccf"
         }
       ]
     },
-    "AMPLIFY_auth_strokesfrontend7e097bc1_authRoleArn": {
+    "AMPLIFY_auth_strokesfrontende277fccf_authRoleArn": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "strokesfrontend7e097bc1"
+          "resourceName": "strokesfrontende277fccf"
         }
       ]
     },
-    "AMPLIFY_auth_strokesfrontend7e097bc1_authRoleName": {
+    "AMPLIFY_auth_strokesfrontende277fccf_authRoleName": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "strokesfrontend7e097bc1"
+          "resourceName": "strokesfrontende277fccf"
         }
       ]
     },
-    "AMPLIFY_auth_strokesfrontend7e097bc1_identityPoolId": {
+    "AMPLIFY_auth_strokesfrontende277fccf_identityPoolId": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "strokesfrontend7e097bc1"
+          "resourceName": "strokesfrontende277fccf"
         }
       ]
     },
-    "AMPLIFY_auth_strokesfrontend7e097bc1_identityPoolName": {
+    "AMPLIFY_auth_strokesfrontende277fccf_identityPoolName": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "strokesfrontend7e097bc1"
+          "resourceName": "strokesfrontende277fccf"
         }
       ]
     },
-    "AMPLIFY_auth_strokesfrontend7e097bc1_nativeClientId": {
+    "AMPLIFY_auth_strokesfrontende277fccf_nativeClientId": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "strokesfrontend7e097bc1"
+          "resourceName": "strokesfrontende277fccf"
         }
       ]
     },
-    "AMPLIFY_auth_strokesfrontend7e097bc1_unauthRoleArn": {
+    "AMPLIFY_auth_strokesfrontende277fccf_unauthRoleArn": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "strokesfrontend7e097bc1"
+          "resourceName": "strokesfrontende277fccf"
         }
       ]
     },
-    "AMPLIFY_auth_strokesfrontend7e097bc1_unauthRoleName": {
+    "AMPLIFY_auth_strokesfrontende277fccf_unauthRoleName": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "strokesfrontend7e097bc1"
+          "resourceName": "strokesfrontende277fccf"
         }
       ]
     },
-    "AMPLIFY_auth_strokesfrontend7e097bc1_userPoolId": {
+    "AMPLIFY_auth_strokesfrontende277fccf_userPoolId": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "strokesfrontend7e097bc1"
+          "resourceName": "strokesfrontende277fccf"
         }
       ]
     },
-    "AMPLIFY_auth_strokesfrontend7e097bc1_userPoolName": {
+    "AMPLIFY_auth_strokesfrontende277fccf_userPoolName": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "strokesfrontend7e097bc1"
+          "resourceName": "strokesfrontende277fccf"
         }
       ]
     },
-    "AMPLIFY_auth_strokesfrontend7e097bc1_webClientId": {
+    "AMPLIFY_auth_strokesfrontende277fccf_webClientId": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "strokesfrontend7e097bc1"
+          "resourceName": "strokesfrontende277fccf"
         }
       ]
     }

@@ -20,7 +20,6 @@ export function Login() {
   };
 
   const onSubmit = (event: any) => {
-    console.log(event);
     dispatch(
       doLogin(event.username, event.password, (err) => {
         if (err) {
