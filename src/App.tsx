@@ -20,7 +20,7 @@ function App() {
   const severity = useSelector((state: AppState) => state.messageState.severity);
   const dispatch = useDispatch();
   const close = () => {
-    dispatch(closeMessage());
+      dispatch(closeMessage());
   }
   
 

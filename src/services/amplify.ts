@@ -51,10 +51,14 @@ export async function handleSignOut() {
 }
 
 export async function getAuthToken() {
-    return `Bearer ${(await fetchAuthSession()).tokens?.accessToken}`;
+    return `Bearer ${(await fetchAuthSession()).tokens?.accessToken.toString()}`;
 }
 
 export async function test() {
-    const response = await get({ apiName: 'StrokesAPI', path: '/stroke', options: { headers: { Authorization: await getAuthToken() } } });
-    console.log(await (await response.response).body.json());
+    const response = await get({
+        apiName: 'StrokesAPI',
+        path: '/stroke',
+        options: {headers: {Authorization: await getAuthToken()}}
+    }).response;
+    console.log(await response.body.json());
 }
